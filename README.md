@@ -25,6 +25,8 @@ Thus far, we can **NOT** fully figure out and stick with the configurations in t
 
 We re-write the appearance / motion stream network and the proposed two-stream loss in the paper, in JAX code. Networks are built on top of [equinox](https://github.com/patrick-kidger/equinox).
 
+Pre-trained weights are ported from [here (VGG)](https://github.com/tchambon/A-Sliced-Wasserstein-Loss-for-Neural-Texture-Synthesis) and [here (optical flow network)](https://github.com/IVRL/DyNCA)
+
 ## Run
 
 ```bash
@@ -37,3 +39,9 @@ python two_stream_dyntex_syn.py --exemplar_path data/fish
 | ------ | ------------------------------------------- | --------------------------------------------- | ------------------------------------------------ |
 | Input  | ![A1](data/fish/fish.gif)                   | ![alt text](data/flames/flames.gif)           | ![alt text](data/escalator/escalator.gif)        |
 | Output | ![alt text](data/fish/output/animation.gif) | ![alt text](data/flames/output/animation.gif) | ![alt text](data/escalator/output/animation.gif) |
+
+## Last words
+
+Thanks all efforts put on making all mentioned repositories public.
+
+We appreciate bug reports. I will fix them when I make time around.
