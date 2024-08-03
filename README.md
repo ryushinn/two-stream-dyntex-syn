@@ -33,7 +33,7 @@ python two_stream_dyntex_syn.py --exemplar_path data/fish
 
 ## Results
 
-- | fish   | flames                                      | escalator                                     |
-  | ------ | ------------------------------------------- | --------------------------------------------- | ------------------------------------------------ |
-  | Input  | ![A1](data/fish/fish.gif)                   | ![alt text](data/flames/flames.gif)           | ![alt text](data/escalator/escalator.gif)        |
-  | Output | ![alt text](data/fish/output/animation.gif) | ![alt text](data/flames/output/animation.gif) | ![alt text](data/escalator/output/animation.gif) |
+| X      | fish                                        | flames                                        | escalator                                        |
+| ------ | ------------------------------------------- | --------------------------------------------- | ------------------------------------------------ |
+| Input  | ![A1](data/fish/fish.gif)                   | ![alt text](data/flames/flames.gif)           | ![alt text](data/escalator/escalator.gif)        |
+| Output | ![alt text](data/fish/output/animation.gif) | ![alt text](data/flames/output/animation.gif) | ![alt text](data/escalator/output/animation.gif) |
